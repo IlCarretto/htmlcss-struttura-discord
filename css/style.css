@@ -62,7 +62,6 @@
 }
 
 .first-section{
-    
     height: 80%;
     display: flex;
 }
@@ -75,6 +74,18 @@
 .right-box{
     background-color: lightsalmon;
     width: 400px;
+}
+
+/* Second-Type-Section */
+.grey-section-two{
+    height: 800px;
+    background-color: lightgrey;
+}
+
+.st-section{
+    background-color: lightgreen;
+    width: 1200px;
+    height: 80%;
 }
 
 
