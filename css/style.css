@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .border{
@@ -88,5 +89,50 @@
     height: 80%;
 }
 
+/* FOOTER */
+footer{
+    background-color: darkgrey;
+    min-height: 800px;
+}
 
+/* Footer-Top Section */
+.ft-section{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
 
+.col{
+    background-color: lightseagreen;
+    width: calc(100% / 5);
+    height: 500px;
+    border: 1px dashed black;
+}
+
+.pink{
+    background-color: lightsalmon;
+    border: 1px dashed black;
+}
+
+/* Footer-Bottom-Section */
+.fb-section{
+    width: 70%;
+    height: 100px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.fb-section .logo, .bottone{
+    border: 1px dashed black;
+}
